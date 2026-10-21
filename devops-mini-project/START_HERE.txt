@@ -1,0 +1,25 @@
+DEVOPS MINI PROJECT - START HERE
+
+1. Extract this entire ZIP first. Do not run files from inside the ZIP viewer.
+2. Install Python 3.14 from https://www.python.org/downloads/
+   During Windows installation enable "Add Python to PATH".
+3. Open the extracted devops-mini-project folder in VS Code.
+4. Open Terminal > New Terminal and run:
+      .\SETUP_WINDOWS.bat
+      .\START_PROJECT.bat
+5. Open http://127.0.0.1:5000 in a browser.
+6. Leave the terminal open while using the application. Ctrl+C stops it.
+
+To test: open another terminal and run .\RUN_TESTS.bat
+
+Internet is needed for the first dependency installation.
+The local app does NOT require Docker, GitHub, Docker Hub or Render accounts.
+
+FOR THE COMPLETE CI/CD PROJECT:
+Read docs/IMPLEMENTATION_GUIDE.md in VS Code (Ctrl+Shift+V for preview).
+It explains GitHub, Docker, Docker Hub and Render setup in order.
+The workflow runs tests by default. Publishing and deployment are disabled
+until you configure YOUR accounts and explicitly enable them.
+
+Students: Aayush Patil (84) and Sanskruti Suryawanshi (56)
+Guide: Ms. Kshitija Gharat

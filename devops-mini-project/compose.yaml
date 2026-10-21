@@ -1,0 +1,11 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        APP_VERSION: local-docker
+    ports:
+      - "127.0.0.1:5000:10000"
+    environment:
+      PORT: "10000"
+    restart: unless-stopped
